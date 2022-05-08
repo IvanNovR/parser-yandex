@@ -113,7 +113,7 @@ class Photoredaktor(QtWidgets.QMainWindow, QWidget):
     def init_Ui(self):
         self.setMouseTracking(True)
         self.setWindowTitle('PythonParser')
-        self.setWindowIcon(QIcon('data/icons/icon.png'))
+        self.setWindowIcon(QIcon('icon.png'))
         self.ui.WayLineEdit.setPlaceholderText('укажите путь в формате C:\Program Files\...\...')
         self.ui.SaveLineEdit.setPlaceholderText('укажите путь в формате C:\Program Files\...\...')
         self.ui.InnLineEdit.setPlaceholderText('укажите букву столбца с ИНН')
